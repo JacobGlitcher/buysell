@@ -5,13 +5,7 @@
 </template>
 
 <script setup>
-  definePageMeta({
-    layout: "products-layout",
-  })
-
-  const { id } = useRoute().params
+const { id } = useRoute().params;
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

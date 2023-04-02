@@ -2,12 +2,6 @@
   <p>products</p>
 </template>
 
-<script setup>
-  definePageMeta({
-    layout: "products-layout",
-  })
-</script>
+<script setup></script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
