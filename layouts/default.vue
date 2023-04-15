@@ -64,8 +64,8 @@
 
   .main-wrapper {
     flex: 1 1 auto;
-    background-color: #fafafa;
-    padding: 30px;
+    background-color: #f0f0f0;
+    padding: 30px 30px 50px;
   }
 }
 </style>
