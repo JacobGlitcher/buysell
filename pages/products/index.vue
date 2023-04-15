@@ -12,6 +12,10 @@ import config from "@/config/buysell";
 const uri = config.endpoints.products.getLimited + 15;
 
 const { data: allProducts } = await useFetch(uri);
+
+useHead({
+  title: "Buysell Merch",
+});
 </script>
 
 <style lang="scss" scoped>

@@ -9,3 +9,14 @@
   overflow: hidden;
   white-space: nowrap;
 }
+
+@mixin page-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+@mixin material-icon-default {
+  position: relative;
+  top: 4px;
+  left: 2px;
+}

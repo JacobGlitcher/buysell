@@ -1,10 +1,15 @@
 <template>
-  <p>home</p>
+  <p><i class="material-icons">home</i> Home</p>
 </template>
 
-<script setup>
-</script>
+<script setup></script>
 
 <style lang="scss" scoped>
+p {
+  @include page-heading;
+}
 
+i {
+  @include material-icon-default;
+}
 </style>

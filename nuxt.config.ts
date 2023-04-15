@@ -12,4 +12,21 @@ export default defineNuxtConfig({
       },
     },
   },
+  app: {
+    head: {
+      title: "Buysell",
+      meta: [
+        {
+          name: "description",
+          content: "Take an overview to the worldwide products",
+        },
+      ],
+      link: [
+        {
+          rel: "stylesheet",
+          href: "https://fonts.googleapis.com/icon?family=Material+Icons",
+        },
+      ],
+    },
+  },
 });
