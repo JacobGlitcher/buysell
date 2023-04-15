@@ -1,6 +1,6 @@
 <template>
   <div class="product-child-inner">
-    <div class="product-image-wrapper">
+    <div class="product-image">
       <img :src="product.image" alt="product thumb" />
     </div>
     <p class="product-title">{{ product.title }}</p>
@@ -21,7 +21,7 @@ const { product } = defineProps(["product"]);
   margin: 0 auto;
   flex-direction: column;
   height: 100%;
-  .product-image-wrapper {
+  .product-image {
     max-width: 70%;
     max-height: 115px;
     text-align: center;
