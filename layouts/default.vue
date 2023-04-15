@@ -64,7 +64,7 @@
 
   .main-wrapper {
     flex: 1 1 auto;
-    background-color: #f0f0f0;
+    background-color: $default-background-color;
     padding: 30px 30px 50px;
   }
 }
