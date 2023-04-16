@@ -14,12 +14,9 @@ defineProps(["error"]);
 </script>
 
 <style lang="scss">
-body {
-  background-color: $default-background-color;
-  padding: 50px;
-}
-
 .error-wrapper {
+  position: relative;
+  top: 65px;
   width: fit-content;
   margin: 0 auto;
   text-align: center;
